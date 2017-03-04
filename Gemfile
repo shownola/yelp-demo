@@ -7,6 +7,7 @@ gem 'rails', '4.2.5'
 gem 'sqlite3', group: :development
 
 gem 'sass-rails', '~> 5.0'
+#gem 'sass-rails', '>= 3.2'
 
 gem 'uglifier', '>= 1.3.0'
 
@@ -42,7 +43,7 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   
-  gem 'bootstrap', '~> 4.0.0.alpha6'
+  gem 'bootstrap-sass', '3.2.0.2'
   gem 'rails_12factor', group: :production
   gem 'pg', group: :production
   
