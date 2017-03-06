@@ -1,13 +1,14 @@
 source 'https://rubygems.org'
 
-ruby '2.3.0'
 
 gem 'rails', '4.2.5'
 
-gem 'sqlite3', group: :development
+gem 'twitter-bootstrap-rails'
+
+  gem 'pg'
 
 #gem 'sass-rails', '~> 5.0'
-gem 'sass-rails', '>= 3.2'
+gem 'sass-rails', '~> 5.0'
 
 gem 'uglifier', '>= 1.3.0'
 
@@ -34,6 +35,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
+  gem 'sqlite3'
 end
 
 group :development do
@@ -41,13 +43,13 @@ group :development do
   gem 'web-console', '~> 2.0'
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
-  gem 'spring', group: :development
+  gem 'spring'
   
+end
  
-  gem 'rails_12factor', group: :production
-  gem 'pg', group: :production
+ group :production do 
+
+  gem 'rails_12factor'
   
-  
-   gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 end
 
