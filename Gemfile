@@ -32,10 +32,12 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
-
+gem 'carrierwave', github: 'carrierwaveuploader/carrierwave'
+gem 'fog'
 gem 'fog-aws', group: :production
-gem 'carrierwave', '~> 1.0'
+#gem 'carrierwave', '~> 1.0'
 gem 'figaro'
+gem 'mini_magick'
 
 
 group :development, :test do
