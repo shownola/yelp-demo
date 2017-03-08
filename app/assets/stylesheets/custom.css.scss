@@ -1,0 +1,39 @@
+.jumbotron {
+  background-color: #FDF8E1;
+  border: 1px solid #F2CB3B;
+  h2 {
+    color: #C41200;
+    font-weight: bold;
+  }
+}
+.navbar-default {
+  .container-fluid{
+    background-color: #B80B03;
+    .navbar-nav > li > a {
+      color: #FFFFFF;
+      font-size: 16px;
+      font-weight: bold;
+    }
+    .navbar-brand {
+      color: black;
+      font-size: 30px;
+      font-weight: bold;
+      font-family: 'Hobo Std';
+      text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, ;
+      margin-top: -20px;
+    }
+  }
+}
+.container-fluid {
+  padding: 10px 120px;
+}
+.navbar-header {
+  .navbar-brand a {
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+}
+.cityscape {
+  margin: 0 auto;
+  text-align: center;
+}
