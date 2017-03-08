@@ -38,6 +38,7 @@ gem 'fog-aws', group: :production
 #gem 'carrierwave', '~> 1.0'
 gem 'figaro'
 gem 'mini_magick'
+gem 'devise'
 
 
 group :development, :test do
